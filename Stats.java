@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class Stats {
     public static void main(String[] args) {
 		if (args.length == 0) {
-			System.err.println("Usage: java Max <numbers>");
+			System.err.println("Usage: java Stats <numbers>");
 			return;
 		}
 		int count = args.length;
